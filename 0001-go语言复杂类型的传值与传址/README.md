@@ -1,9 +1,11 @@
-# 
+#### 问题描述：
 在Go语言网看到一个问题:
 为什么在函数传参时，数组参数有无固定长度，会产生这样的差距，就是arr5里面的内容不会被改变，arr7却会改变，刚开始学go，求大佬赐教?
-问题地址:https://studygolang.com/topics/12422
 
-我对这个问题进行了一下拓展
+#### 问题地址:
+https://studygolang.com/topics/12422
+
+我对这个问题进行了一下拓展，思考除slice外的map，struct，[]struct,[]map的修改，这个文件下的代码，就是我做的测试代码
 
 结论:
 ```golang
