@@ -43,8 +43,8 @@ func main() {
 		"4": 5,
 	}
 	b := Modify9(a)
-	fmt.Println("a:", a) // 打印结果:[1 2 3 4 5]
-	fmt.Println("b:", b) // 打印结果:[300 2 3 4 5]
+	fmt.Println("a:", a) // 打印结果:map[0:300 1:2 2:3 3:4 4:5]
+	fmt.Println("b:", b) // 打印结果:map[0:300 1:2 2:3 3:4 4:5]
 	fmt.Println("")
 
 	a1 := map[string]int32{
@@ -55,8 +55,8 @@ func main() {
 		"4": 5,
 	}
 	b1 := Modify10(a1)
-	fmt.Println("a1:", a1) // 打印结果:[100 2 3 4 5]
-	fmt.Println("b1:", b1) // 打印结果:[100 300 3 4 5 500]
+	fmt.Println("a1:", a1) // 打印结果:map[0:100 1:300 2:3 3:4 4:5 5:500]
+	fmt.Println("b1:", b1) // 打印结果:map[0:100 1:300 2:3 3:4 4:5 5:500]
 	fmt.Println("")
 
 	a2 := map[string]int32{
@@ -67,8 +67,8 @@ func main() {
 		"4": 5,
 	}
 	b2 := Modify11(a2)
-	fmt.Println("a2:", a2) // 打印结果:[100 2 3 4 5]
-	fmt.Println("b2:", b2) // 打印结果:[100 300 3 4 5 500]
+	fmt.Println("a2:", a2) // 打印结果:map[0:300 1:2 2:3 3:4 4:5]
+	fmt.Println("b2:", b2) // 打印结果:map[0:300 1:2 2:3 3:4 4:5]
 	fmt.Println("")
 
 	a3 := map[string]int32{
@@ -79,8 +79,8 @@ func main() {
 		"4": 5,
 	}
 	b3 := Modify12(a3)
-	fmt.Println("a3:", a3) // 打印结果:[1 2 3 4 5]
-	fmt.Println("b3:", b3) // 打印结果:[100 300 3 4 5 500]
+	fmt.Println("a3:", a3) // 打印结果:map[0:1 1:2 2:3 3:4 4:5]
+	fmt.Println("b3:", b3) // 打印结果:map[0:300 1:2 2:3 3:4 4:5]
 	fmt.Println("")
 
 }
